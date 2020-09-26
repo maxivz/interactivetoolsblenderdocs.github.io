@@ -16,7 +16,7 @@ Github is updated more frequentlly while Gumroad is only updated on big releases
 
 This plugin requieres **Blender 2.9**. While most of the tools might work in **Blender 2.8**, bugs can be expected and it wont provide the optimal experience.
 
-To Install follow the instructions  [**here**](../setup/#installation)
+To Install follow the instructions  [**here**](setup#installation)
 
 ## Features
 
