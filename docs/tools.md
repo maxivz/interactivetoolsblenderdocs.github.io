@@ -70,7 +70,7 @@ If two connected points are selected it will make a segment between them
 ####Vert Mode
 If a vert is selected it will delete all the connected faces.
 
-	Option to dissolve the vert instead can be found in the preferences.
+Option to dissolve the vert instead can be found in the [**preferences**](../preferences).
 	
 ![Alt Text](img/quickdelete_01.gif)
 
@@ -89,7 +89,7 @@ If the tool is run in edit curve mode while in point mode the selected the point
 ![Alt Text](img/smartextrude_04.gif)
 
 ###Legacy Method
-The legacy mode of this tool can be activated in the [**preferences**](../Preferences) .
+The legacy mode of this tool can be activated in the [**preferences**](../preferences).
  The main feature of the legacy mode is automatic axis detectionbut it only works with the move tool
  and its behaivour isnt consistent.
 
@@ -119,7 +119,7 @@ Toggles edit origin mode on and off.
 
 For blender 2.82 and below the tool will run in legacy mode. 
 
-This mode can also be enabled in newer versions of blender in the [**preferences**](../Preferences).
+This mode can also be enabled in newer versions of blender in the [**preferences**](../preferences).
 
 
 Select an object and run the tool, a helper will be made to control the origin position.

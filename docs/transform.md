@@ -4,7 +4,7 @@
 ###Transform Mode Cycle
 Cycles between the different transform modes (move, rotate and scale). 
 
-Its possible to make it deactivate the transform gizmos after Scale in the [**preferences**](../Preferences) 
+Its possible to make it deactivate the transform gizmos after Scale in the [**preferences**](../preferences) 
 ![Alt Text](img/transform_mode_cycle.gif)
 
 ###CS Move
