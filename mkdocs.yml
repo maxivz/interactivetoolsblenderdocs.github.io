@@ -13,5 +13,7 @@ nav:
         - Toggles: 'toggles.md'
         - Uv Tools: 'uv-tools.md'
         - Preferences: 'preferences.md'
+    - Releases: 
+        - Changelog : 'changelog.md'
   
 theme: readthedocs
