@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Pie Menus - Interactive Tools</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Pie Menus";
+    var mkdocs_page_input_path = "pie-menus.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Interactive Tools</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../setup/">Setup</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Documentation</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../modes-cycling/">Modes Cycling</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../selection/">Selection</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../transform/">Transform</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../tools/">Tools</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Pie Menus</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#transform-options-pies">Transform Options Pies</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#proportional-editing-falloffs">Proportional Editing Falloffs</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transform-orientations">Transform Orientations</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#transform-pivot-point">Transform Pivot Point</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#snap-presets">Snap Presets</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#smart-modify-pie">Smart Modify Pie</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#object-mode">Object Mode</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#edit-mesh-mode">Edit Mesh Mode</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lattice-mode">Lattice Mode</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#curve-mode">Curve Mode</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#uv-mode">UV Mode</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../toggles/">Toggles</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../uv-tools/">Uv Tools</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../preferences/">Preferences</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Releases</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Interactive Tools</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Documentation &raquo;</li>
+        
+      
+    
+    <li>Pie Menus</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="pie-menus">Pie Menus</h1>
+<h2 id="transform-options-pies">Transform Options Pies</h2>
+<p><img alt="Alt Text" src="../img/pie_transform_options.jpg" /></p>
+<h3 id="proportional-editing-falloffs">Proportional Editing Falloffs</h3>
+<p>Allows access to all the Proportional Editing Falloffs as well as activating and deactivating it.</p>
+<h3 id="transform-orientations">Transform Orientations</h3>
+<p>Allows access to all the default orientations as well as quickly setting 3 custom orientations. </p>
+<p>Reset Orientation enables to the last used default orientation if using a custom orientation </p>
+<h3 id="transform-pivot-point">Transform Pivot Point</h3>
+<p>Allows access to all the Transform Pivot Points.</p>
+<h3 id="snap-presets">Snap Presets</h3>
+<p>Quick snap presets that set multiple snaping options at once</p>
+<ul>
+<li>
+<p><strong>Vert Closest:</strong>  Snaps to closest vertex.</p>
+</li>
+<li>
+<p><strong>Vert Center:</strong> Snaps to vertex center.</p>
+</li>
+<li>
+<p><strong>Grid Absolute:</strong> Snaps to the closest increment in absolute mode.</p>
+</li>
+<li>
+<p><strong>Face Normal:</strong> Snaps position and alignment to the center of a face</p>
+</li>
+<li>
+<p><strong>Edge Center:</strong> Snaps to the edge's middle point.</p>
+</li>
+</ul>
+<h2 id="smart-modify-pie">Smart Modify Pie</h2>
+<p>Context Sensitive Pie Menu, gives quick access to relevant tools based on the context.</p>
+<h3 id="object-mode">Object Mode</h3>
+<p><img alt="Alt Text" src="../img/pie_smart_modify_object.jpg" /></p>
+<h3 id="edit-mesh-mode">Edit Mesh Mode</h3>
+<p><img alt="Alt Text" src="../img/pie_smart_modify_editmesh.jpg" /></p>
+<h3 id="lattice-mode">Lattice Mode</h3>
+<p><img alt="Alt Text" src="../img/pie_smart_modify_lattice.jpg" /></p>
+<h3 id="curve-mode">Curve Mode</h3>
+<p><img alt="Alt Text" src="../img/pie_smart_modify_curve.jpg" /></p>
+<h3 id="uv-mode">UV Mode</h3>
+<p><img alt="Alt Text" src="../img/pie_smart_modify_uv.jpg" />
+Requires textools</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../toggles/" class="btn btn-neutral float-right" title="Toggles">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../tools/" class="btn btn-neutral" title="Tools"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../tools/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../toggles/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
